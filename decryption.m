@@ -1,4 +1,5 @@
-[c1,fs] = audioread('arctic_enc.wav');
+%%manipulation built in audio file
+[c1,fs] = audioread('arctic_enc.wav'); %% reading the audion file
 for i = 1:size(c1,1)
     d = 0;
     m1 = 1;
